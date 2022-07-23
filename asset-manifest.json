@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/ecommerce-site/static/css/main.effa52f4.css",
+    "main.js": "/ecommerce-site/static/js/main.c464e19f.js",
+    "static/media/carousel-1.jpg": "/ecommerce-site/static/media/carousel-1.bc053ba837033b9a9889.jpg",
+    "static/media/carousel-2.jpg": "/ecommerce-site/static/media/carousel-2.7396b7af17c5d0222570.jpg",
+    "static/media/carousel-3.jpg": "/ecommerce-site/static/media/carousel-3.725f862d83e652fc89e1.jpg",
+    "static/media/dress-women.jpg": "/ecommerce-site/static/media/dress-women.279d70351508a3fa165f.jpg",
+    "static/media/shorts-men.jpg": "/ecommerce-site/static/media/shorts-men.7130a37a4b100af2e6ba.jpg",
+    "static/media/shirt-men.jpg": "/ecommerce-site/static/media/shirt-men.e59b3e9dbd70a8e3e42f.jpg",
+    "static/media/pants-women.jpg": "/ecommerce-site/static/media/pants-women.855869a300fd380af208.jpg",
+    "static/media/coat-women.jpg": "/ecommerce-site/static/media/coat-women.2008375ecbd89b942fe5.jpg",
+    "static/media/women.jpg": "/ecommerce-site/static/media/women.717e4efed93b222cfdd6.jpg",
+    "static/media/men.jpg": "/ecommerce-site/static/media/men.02593e6a68d89875c42e.jpg",
+    "static/media/shoes-women.jpg": "/ecommerce-site/static/media/shoes-women.6c74cb679cf30a0dddf3.jpg",
+    "static/media/shoes-men.jpg": "/ecommerce-site/static/media/shoes-men.cc9764f36278c7694ae8.jpg",
+    "static/media/heels-women.jpg": "/ecommerce-site/static/media/heels-women.8ca63d4e6a02af633f50.jpg",
+    "index.html": "/ecommerce-site/index.html",
+    "main.effa52f4.css.map": "/ecommerce-site/static/css/main.effa52f4.css.map",
+    "main.c464e19f.js.map": "/ecommerce-site/static/js/main.c464e19f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.effa52f4.css",
+    "static/js/main.c464e19f.js"
+  ]
+}
