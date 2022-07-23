@@ -4,9 +4,6 @@ import { useShoppingCart } from "../context/ShoppingCartContext";
 import products from "../data";
 import formatCurrency from "../utilities/formatCurrency";
 
-// Create an object with name, img, price, id and quantity (quantity should be a state)
-// Pass the object to cart
-
 export default function SingleProduct() {
   const { getItemQuantity, setCartQuantity } = useShoppingCart();
 
@@ -24,7 +21,7 @@ export default function SingleProduct() {
 
   function setOptions(product) {
     let optionArray = [];
-    for (let i = 1; i < product.quantity - quantityInCart; i++) {
+    for (let i = 1; i <= product.quantity - quantityInCart; i++) {
       optionArray.push(
         <option value={`${i}`} key={i}>
           {i}
@@ -48,11 +45,9 @@ export default function SingleProduct() {
         <h2 className="single-product__name">{product.name}</h2>
         <p className="single-product__price">{formatCurrency(product.price)}</p>
       </div>
-      {/* <div className="row">
-        <button className="button">+</button>
-      </div> */}
-      <div className="row">
+      <div className="container__single-product--buy row">
         <select
+          menuPlacement="top"
           value={selectedQuantity}
           onChange={handleSelectedQuantityChange}
           required
