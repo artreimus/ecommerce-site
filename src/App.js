@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
 import SharedLayout from "./pages/SharedLayout";
 import Error from "./pages/Error";
 import Home from "./pages/Home";
@@ -11,7 +11,7 @@ import { ShoppingCartProvider } from "./context/ShoppingCartContext";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <ShoppingCartProvider>
         <Routes>
           <Route path="/" element={<SharedLayout />}>
@@ -27,7 +27,7 @@ function App() {
           </Route>
         </Routes>
       </ShoppingCartProvider>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
